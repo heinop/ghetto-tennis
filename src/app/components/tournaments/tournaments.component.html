@@ -1,0 +1,10 @@
+<h2>Tournaments</h2>
+<div>
+  <ul>
+    <li *ngFor="let tournament of tournaments">
+      <a routerLink="/tournament/{{tournament.id}}">
+        Year {{ tournament.id }}
+      </a>
+    </li>
+  </ul>
+</div>

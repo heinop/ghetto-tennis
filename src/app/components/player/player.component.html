@@ -1,0 +1,6 @@
+<div *ngIf="player">
+  <h2>{{ player.name }}</h2>
+
+  <p>Championships: <span *ngIf="championships">{{ championships.join(', ') }}</span></p>
+  <p>Tournaments: <span *ngIf="tournaments">{{ tournaments.join(', ') }}</span></p>
+</div>
